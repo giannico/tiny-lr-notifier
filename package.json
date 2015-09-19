@@ -1,0 +1,33 @@
+{
+  "name": "tiny-lr-notifier",
+  "version": "0.1.0",
+  "description": "A simple module for notifying a running tiny-lr server about changed files (via its REST interface).",
+  "keywords": [
+    "tiny-lr",
+    "browser-sync",
+    "livereload"
+  ],
+  "homepage": "http://github.com/giannico/tiny-lr-notifier",
+  "bugs": {
+    "url": "https://github.com/giannico/tiny-lr-notifier/issues",
+    "email": "giannico@gmail.com"
+  },
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Andre Giannico",
+      "email": "giannico@gmail.com"
+    }
+  ],
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giannico/tiny-lr-notifier/tiny-lr-notifier.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "lodash": "^3.10.1",
+    "request": "^2.62.0"
+  },
+  "devDependencies": {}
+}
